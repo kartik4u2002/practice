@@ -1,1 +1,7 @@
+// if there is no container
+docker run -it ubuntu:latest --name kartik bash
+
+// if container is there
+docker start -i kartik bash
+
 
